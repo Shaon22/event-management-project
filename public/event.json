@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "image":"https://i.ibb.co/wg7cNZ5/seminar-Img.jpg",
+        "title": "Conferences and Seminars",
+        "short_description": "Expertly plan and execute impactful conferences and seminars that inspire, educate, and engage.",
+        "price": "$2,500 - $5,000"
+      },
+      {
+        "id": 2,
+        "image":"https://i.ibb.co/Y8v6VTg/tradeshow-blog.jpg",
+        "title": "Trade Shows and Expos",
+        "short_description": "Maximize your brand's presence with meticulously organized trade shows and expos that draw crowds and generate leads.",
+        "price": "$3,000 - $7,000"
+      },
+      {
+        "id": 3,
+        "image":"https://i.ibb.co/wBZsRy6/team-Building.jpg",
+        "title": "Team Building Workshops",
+        "short_description": "Boost team cohesion and productivity with fun and effective team building workshops tailored to your goals.",
+        "price": "$1,500 - $3,500"
+      },
+      {
+        "id": 4,
+        "image":"https://i.ibb.co/D86VGQ4/new-product-launch-event-planner.png",
+        "title": "Product Launches",
+        "short_description": "Launch your products in style with our event expertise, ensuring maximum impact and media coverage.",
+        "price": "$2,000 - $6,000"
+      },
+      {
+        "id": 5,
+        "image":"https://i.ibb.co/qgsxgsy/corporate-meeting.jpg",
+        "title": "Corporate Meetings",
+        "short_description": "Streamline your corporate meetings with seamless planning and execution, whether in-person or virtual.",
+        "price": "$1,000 - $4,000"
+      },
+      {
+        "id": 6,
+        "image":"https://i.ibb.co/KwLQZ0K/office-worker-honored.jpg",
+        "title": "Award Ceremonies",
+        "short_description": "Celebrate excellence with grand award ceremonies that honor achievements and leave a lasting impression.",
+        "price": "$2,500 - $5,500"
+      }
+]
