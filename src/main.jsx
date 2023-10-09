@@ -11,6 +11,7 @@ import PotectedRoute from './Components/Others/PotectedRoute'
 import Profile from './Components/pages/Profile.jsx'
 import AuthProvider from './Components/provider/AuthProvider'
 import About from './Components/pages/About'
+import Feedback from './Components/pages/Feedback'
 
 const router = createBrowserRouter([
   {
@@ -47,7 +48,12 @@ const router = createBrowserRouter([
       {
         path:'/about',
         element:<About></About>
+      },
+      {
+        path:'/feedback',
+        element:<Feedback></Feedback>
       }
+
 
     ]
   }
