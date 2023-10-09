@@ -7,9 +7,9 @@ import Home from './Components/pages/Home.jsx'
 import Login from './Components/pages/Login'
 import Register from './Components/pages/Register'
 import ServiceDetails from './Components/pages/ServiceDetails'
-import AuthProvider from './Components/provider/authProvider'
 import PotectedRoute from './Components/Others/PotectedRoute'
 import Profile from './Components/pages/Profile.jsx'
+import AuthProvider from './Components/provider/AuthProvider'
 
 const router = createBrowserRouter([
   {
@@ -33,15 +33,15 @@ const router = createBrowserRouter([
         path: '/serviceDetails/:id',
         element: <PotectedRoute>
           <ServiceDetails></ServiceDetails>
-          
+
         </PotectedRoute>,
         loader: () => fetch('/event.json')
       },
       {
-        path:'/profile',
-        element:<PotectedRoute>
+        path: '/profile',
+        element: <PotectedRoute>
           <Profile></Profile>
-          </PotectedRoute>
+        </PotectedRoute>
       }
 
     ]

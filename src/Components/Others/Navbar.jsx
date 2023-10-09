@@ -1,4 +1,4 @@
-import { NavLink, Navigate, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 import { useContext } from "react";
@@ -13,7 +13,6 @@ const Navbar = () => {
         logOut()
             .then(result => {
                 console.log(result)
-                
             })
             .catch(error => {
                 console.error(error)
