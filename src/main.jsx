@@ -7,6 +7,9 @@ import Home from './Components/pages/Home.jsx'
 import Login from './Components/pages/Login'
 import Register from './Components/pages/Register'
 import ServiceDetails from './Components/pages/ServiceDetails'
+import AuthProvider from './Components/provider/authProvider'
+import PotectedRoute from './Components/Others/PotectedRoute'
+import Profile from './Components/pages/Profile.jsx'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +19,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
-        loader: () => fetch('event.json')
+        loader: () => fetch('/event.json')
       },
       {
         path: '/login',
@@ -28,7 +31,17 @@ const router = createBrowserRouter([
       },
       {
         path: '/serviceDetails/:id',
-        element: <ServiceDetails></ServiceDetails>,
+        element: <PotectedRoute>
+          <ServiceDetails></ServiceDetails>
+          
+        </PotectedRoute>,
+        loader: () => fetch('/event.json')
+      },
+      {
+        path:'/profile',
+        element:<PotectedRoute>
+          <Profile></Profile>
+          </PotectedRoute>
       }
 
     ]
@@ -36,6 +49,8 @@ const router = createBrowserRouter([
 ])
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <AuthProvider>
+      <RouterProvider router={router}></RouterProvider>
+    </AuthProvider>
   </React.StrictMode>,
 )
