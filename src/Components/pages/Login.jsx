@@ -19,11 +19,10 @@ const Login = () => {
 
     signIn(email, password)
       .then(result => {
-        console.log(result)
-        navigate(location?.state? location.state:'/')
+       navigate(location?.state? location.state:'/')
+       
       })
       .catch(error => {
-        console.error(error)
         setLoginError('Email or password not matched !')
       })
   }
@@ -40,7 +39,7 @@ const Login = () => {
       })
   }
   return (
-    <div className="text-center bg-gray-300 h-screen">
+    <div className="text-center bg-gray-300 pb-10">
       <div>
         <Navbar></Navbar>
       </div>
