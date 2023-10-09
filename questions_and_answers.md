@@ -18,10 +18,11 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: option B
+
 
 <i>Write your explanation here</i>
-
+missing type of variable.
 </p>
 </details>
 
@@ -43,10 +44,10 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: option A
 
 <i>Write your explanation here</i>
-
+parameters are expect two integer value.but arguments send one integer and another string
 </p>
 </details>
 
@@ -69,7 +70,7 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: option A
 
 <i>Write your explanation here</i>
 
@@ -94,7 +95,7 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: option B
 
 <i>Write your explanation here</i>
 
@@ -122,7 +123,7 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: option C
 
 <i>Write your explanation here</i>
 
