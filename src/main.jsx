@@ -51,7 +51,9 @@ const router = createBrowserRouter([
       },
       {
         path:'/feedback',
-        element:<Feedback></Feedback>
+        element:<PotectedRoute>
+          <Feedback></Feedback>
+        </PotectedRoute>
       }
 
 
