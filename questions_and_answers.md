@@ -21,8 +21,8 @@ console.log(greetign);
 #### Answer: option B
 
 
-<i>Write your explanation here</i>
-missing type of variable.
+<i>missing type of variable.</i>
+
 </p>
 </details>
 
@@ -46,8 +46,7 @@ sum(1, "2");
 
 #### Answer: option A
 
-<i>Write your explanation here</i>
-parameters are expect two integer value.but arguments send one integer and another string
+<i>parameters are expect two integer value.but arguments send one integer and another string</i>
 </p>
 </details>
 
