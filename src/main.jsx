@@ -10,6 +10,7 @@ import ServiceDetails from './Components/pages/ServiceDetails'
 import PotectedRoute from './Components/Others/PotectedRoute'
 import Profile from './Components/pages/Profile.jsx'
 import AuthProvider from './Components/provider/AuthProvider'
+import About from './Components/pages/About'
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
         element: <PotectedRoute>
           <Profile></Profile>
         </PotectedRoute>
+      },
+      {
+        path:'/about',
+        element:<About></About>
       }
 
     ]
